@@ -1,0 +1,231 @@
+#title {
+    background-color :#ff4c68 ;
+} 
+
+/* logo - tindog */
+.navbar-brand{
+    font-size: 4rem ;
+    font-weight: bold;
+   font-family: "ubuntu";
+   margin-bottom: 4rem;
+
+
+}
+
+
+.heading {
+    font-family: "Montserrat" ;
+    font-size: 6rem;
+    line-height: 6rem;
+    padding-top :8%  ;
+    padding-bottom: 12%;
+    color: #fff;
+}
+
+.nav-link{
+    font-size: 1.2rem ;
+    font-family: "ubuntu";
+  margin: 0 3rem 6rem 4rem  ;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.iphonemockup{
+ transform: rotate(-21deg);
+width: 70%;
+margin-left: 10rem;
+}
+
+@media (max-width: 992px) {
+    .iphonemockup {
+      
+        width:40% ;
+        margin-top: 3rem;
+        transform: rotate(0);
+        margin-left: 0;
+       
+    }
+    .heading{
+     font-size: 4rem;
+     text-align: center;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    
+    .navbar-brand {
+        margin-bottom: 0;
+    }
+
+   
+}
+@media (max-width:768px) {
+   .testi-heading{
+    font-size: 2rem;
+   }
+}
+
+.container-fluid{
+    padding: 0.9% 13%;
+    padding-bottom: 6%;
+}
+
+.dowload-button{
+vertical-align: middle;
+}
+h2{
+    font-family: "Montserrat";
+    line-height:3.9rem ;
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.8rem;
+  text-align: center;
+}
+p{
+text-align: center;
+color: grey;
+}
+
+#features{
+    padding: 11% 15%;
+}
+.icons{
+    align-content : center;
+    margin-bottom: 2rem;
+    padding-left: 9rem;
+    color: #070707;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+   
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+  
+}
+
+.dog-img{
+border-radius: 100%;
+width: 8rem;
+
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.sponser-img{
+    width:10%;
+    padding: 0 1.5rem;
+    
+}
+.testimonial-image{
+    border-radius: 100%;
+width: 8rem;
+}
+.carousel-item{
+    padding:7% 15% ;
+}
+/* column settings */
+.row{
+    --bs-gutter-x: 0;
+}
+.card-heading{
+    text-align: center;
+}
+.card{
+   text-align: center;
+   margin: 3rem 0.0 0 0  ;
+   --bs-gutter-x: 0;
+}
+
+.col{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pricing{
+    margin: 6% 0 6% 0;
+}
+.button-signup{
+    padding: 0.5rem ;
+    margin-top: 1rem;
+   vertical-align:auto;
+   color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: white;
+    border-radius: 0.5rem;
+   
+}
+.button-signup:hover{
+    color: rgb(255, 255, 255);
+    background-color: #0d6efd;
+}
+.button-signup-middle{
+    padding: 0.5rem ;
+    margin-top: 3.5rem;
+   vertical-align:middle;
+   background-color: #0d6efd;
+   border-color: #0d6efd;
+   color: white;
+   border-radius: 0.5rem;
+}
+
+.button-signup-right{
+    padding: 0.5rem ;
+    margin-top: 3.5rem;
+   vertical-align: middle;
+   background-color: #0d6efd;
+   color: white;
+   border-color: #0d6efd;
+   border-radius: 0.5rem;
+}
+
+ .download-button {
+    margin:1rem 50rem;
+ }
+.foot-header{
+font-family: "Montserrat";
+font-size: 2.5rem;
+
+}
+#cta{
+    background-color: #ff4c68;
+   padding: 4% 0 3% 0;
+   text-align: center;
+   /* margin: 0 0 4rem 0; */
+   
+}
+.download-button1 {
+    margin:1rem ;
+}
+
+ .foot-header{
+    margin-bottom: 2rem;
+  margin
+ }
+
+
+#footer{
+    margin-top: 5rem;
+    text-align:center ;
+}
+
+.logos{
+    padding: 0 0.5rem;
+}
+
+ 
+ .copywrite{
+    margin: 2rem 0 0 0;
+ }
+
+ 
